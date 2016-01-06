@@ -29,19 +29,15 @@ Aconteceu um assassinato na Cidade do Terminal, e a polícia precisa da sua ajud
 
 Para descobrir o culpado, você precisará de acesso a uma linha de comando.
 
-(Importante: se você está lendo este arquivo no GitHub, precisará clonar este
-repositório ou fazer o [download dos arquivos em um zip](https://github.com/deborasetton/clmystery/archive/pt-BR.zip)).
+(Se você estiver lendo este arquivo no GitHub, precisará clonar este
+repositório ou fazer o [download de um zip com os arquivos](https://github.com/deborasetton/clmystery/archive/pt-BR.zip)).
 
 ## Instruções
 
-Abra um terminal, vá até o diretório em que você colocou os arquivos, e comece
-lendo o arquivo `instruções`. Uma forma de fazer isto é com o seguinte comando:
+Abra um terminal, vá até o diretório `clmystery`, e comece
+lendo o arquivo `inicio`. Uma forma de fazer isto é com o seguinte comando:
 
-	cat instruções
-
-<!--
-To get started on how to use the command line, open cheatsheet.md or cheatsheet.pdf (from the command line, you can type 'nano cheatsheet.md').
--->
+	cat inicio
 
 Não use um editor de texto para ler os arquivos! A ideia é aprender a usar os
 comandos básicos do Unix para resolver o mistério.
@@ -51,8 +47,7 @@ usar outros além desses):
 
 - `cd`: muda o diretório atual.
 - `ls`: lista arquivos existentes em um diretório.
-- `cat`: imprime o conteúdo de um ou mais arquivos (cuidado ao usar com arquivos
-muito grandes!)
+- `cat`: imprime o conteúdo de um ou mais arquivos.
 - `head`: imprime as primeiras linhas de um arquivo.
 - `tail`: imprime as últimas linhas de um arquivo.
 - `grep`: busca um texto em um ou mais arquivos. Por padrão, imprime na saída
@@ -60,7 +55,7 @@ as linhas que continham o texto buscado.
 
 ### Dicas
 
-- Não se esqueça que a maioria dos comandos aceita opções para alterar o
+- Não se esqueça de que a maioria dos comandos aceita opções para alterar o
 comportamento (por exemplo, formatar a saída de um jeito diferente). Utilize
 o comando `man` para saber mais sobre as opções aceitas por um comando,
 e.g. `man grep`.
@@ -70,8 +65,7 @@ dicas na ordem ("dica1", "dica2", "dica3", etc).
 
 ### Solução
 
-Para ver a solução
-
+Para ver a solução, leia o arquivo `solucao`.
 
 ## Créditos
 
